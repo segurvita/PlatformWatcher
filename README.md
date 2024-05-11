@@ -1,5 +1,8 @@
 # Platform Watcher
 
+[![openupm](https://img.shields.io/npm/v/com.segur.platform-watcher?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.segur.platform-watcher/)
+[![openupm](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=downloads&query=%24.downloads&suffix=%2Fmonth&url=https%3A%2F%2Fpackage.openupm.com%2Fdownloads%2Fpoint%2Flast-month%2Fcom.segur.platform-watcher)](https://openupm.com/packages/com.segur.platform-watcher/)
+
 # What is this tool?
 
 This tool displays an error if the Unity platform is not the specified one.
@@ -11,11 +14,23 @@ With this tool, you can immediately notice if you forget to switch the platform.
 Please give it a try!
 
 
-
-
 # Requirements
 
 Unity 2019.4 or later
+
+
+# Install via OpenUPM command-line interface
+
+```bash
+# Install openupm-cli
+npm install -g openupm-cli
+
+# Go to your unity project directory
+cd YOUR_UNITY_PROJECT_DIR
+
+# Install package:
+openupm add com.segur.platform-watcher
+```
 
 
 # How to use
