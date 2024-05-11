@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.segur.platform-watcher": {
+      "version": "file:com.segur.platform-watcher",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.6.0",
       "depth": 0,

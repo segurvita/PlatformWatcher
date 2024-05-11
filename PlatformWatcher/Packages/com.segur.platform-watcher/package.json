@@ -1,0 +1,21 @@
+{
+  "name": "com.segur.platform-watcher",
+  "description": "This tool displays an error if the Unity platform is not the specified one.",
+  "version": "0.1.0",
+  "author": {
+    "name": "segur",
+    "email": "segur.opus@gmail.com",
+    "url": "https://github.com/segurvita"
+  },
+  "bugs": {
+    "url": "https://github.com/segurvita/PlatformWatcher/issues"
+  },
+  "displayName": "PlatformWatcher",
+  "keywords": [
+    "Build",
+    "Platform"
+  ],
+  "license": "MIT",
+  "unity": "2019.4",
+  "unityRelease": "29f1"
+}
