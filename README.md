@@ -8,9 +8,9 @@
 
 This tool displays an error if the Unity platform is not the specified one.
 
-For example, have you ever continued working on a WebGL application without switching the platform to WebGL, only to encounter mysterious build errors and spend a lot of time troubleshooting?
+For example, have you ever been working with several people on a Unity project for WebGL application development, and one of the members of the team did not switch the Platform to WebGL, and you encountered a mysterious build error and spent a lot of time troubleshooting?
 
-With this tool, you can immediately notice if you forget to switch the platform.
+With this tool, if you forgot to Switch Platform, the error will be displayed and you will notice it immediately!
 
 Please give it a try!
 
@@ -72,3 +72,11 @@ For example, iOS and Android can be selected as shown below:
 
 <img width="600" src="./Documentation/unity2022_ios_android.png" />
 
+
+# Setting File
+
+The information about which Platform is selected is stored in the file `PlatformWatcherSetting`.json under the `ProjectSettings` folder.
+
+![setting file](./Documentation/setting_file.png)
+
+If you share this file via Git or other means, you can share the settings even if multiple people are developing a Unity project!
